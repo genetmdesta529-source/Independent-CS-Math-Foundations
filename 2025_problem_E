@@ -1,0 +1,30 @@
+### Geometric Analysis: Problem E (Rectangle Partitioning)
+
+#### Problem Statement
+A rectangle with side lengths $a$ and $b$ is cut by a diagonal as shown in the drawing below. Find the perimeter and the area of the two triangles formed.
+
+#### Step-by-Step Geometric Derivation
+
+**1. Geometric Characterization:**
+A single straight diagonal cut across a rectangle divides it cleanly into two congruent (identical) right-angled triangles. Each triangle shares the original rectangle's width $a$ and height $b$ as its perpendicular legs.
+
+**2. Computing the Length of the Diagonal (Hypotenuse):**
+Let $c$ represent the length of the diagonal cut. Applying the Pythagorean theorem to either right triangle:
+$$c^2 = a^2 + b^2 \implies c = \sqrt{a^2 + b^2}$$
+
+**3. Perimeter of Each Triangle:**
+The perimeter ($P$) of a triangle is the total boundary length of its three bounding edges (base, height, and hypotenuse):
+$$P = a + b + c$$
+
+Substituting our algebraic expression for the diagonal $c$:
+$$\text{Perimeter} = a + b + \sqrt{a^2 + b^2}$$
+
+**4. Area of Each Triangle:**
+The area ($A$) of a right triangle is exactly half the surface area of the bounding rectangle from which it was sliced:
+$$\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}$$
+$$\text{Area} = \frac{1}{2}ab$$
+
+#### Final Solutions
+Because the two triangles are mathematically congruent, their geometric measurements are identical. For each of the two triangles formed:
+*   **Perimeter Formulation:** $\mathbf{a + b + \sqrt{a^2 + b^2}}$
+*   **Area Formulation:** $\mathbf{\frac{1}{2}ab}$
